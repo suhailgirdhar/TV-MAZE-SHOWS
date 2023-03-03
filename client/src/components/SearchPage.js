@@ -19,7 +19,7 @@ function SearchPage() {
       posterLink = showData.show.image.medium;
     } catch (err) {
       posterLink =
-        "/Users/suhail/Desktop/TV-SHOWS/client/src/components/blank-poster.png";
+        "https://upload.wikimedia.org/wikipedia/commons/c/c2/No_image_poster.png";
     }
 
     return (
